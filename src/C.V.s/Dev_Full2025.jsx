@@ -6,7 +6,7 @@ import { FaCalendarDays } from 'react-icons/fa6';
 import { IoMailSharp } from 'react-icons/io5';
 import Icons from '../Constant/Icons'
 
-const Master2025 = () => {
+const Dev_Full2025 = () => {
     let array = Object.keys(Icons)
     console.log(array);
 
@@ -16,7 +16,7 @@ const Master2025 = () => {
                 <section className='w-full pb-[2%] bg-amber-50d0 flex items-center justify-between'>
                     <div className="w-[77%] h-[90%] flex flex-col items-center">
                         <legend className='font-bold text-[40px] pl-2'>Ahmed Amine Benelmalih</legend>
-                        <legend className='font-semibold mb-7 text-[25px] underline'>Etudiant en Biologie</legend>
+                        <legend className='font-semibold mb-7 text-[25px] underline'>Développeur Web Full Stack</legend>
                         <section className="w-fullh-full text-[16px] flex justify-around items-center gap-4">
                             <div className='space-y-[6px]'>
                                 <div className='flex gap-2 items-center'>
@@ -93,11 +93,11 @@ const Master2025 = () => {
 
                     <section className='w-[60%] h-full ml-1.5 divide-y-[2px] divide-blue-300 leading-[23px]'>
                         <article className='flex flex-col gap-1 text-[17px] pb-[15px] pr-3 leading-[25px]'>
-                            <p>&nbsp;&nbsp;Jeune Licencié en Biologie Cellulaire et Moléculaire.
-                                Fort d'un sens du leadership et un esprit collaboratif
-                                avec les équipes multidisciplinaires.</p>
+                            <p>&nbsp;&nbsp;Jeune Licencié en Biologie et également Formé en tant que Développeur Web Full Stack.</p>
 
-                            <p>&nbsp;&nbsp;Je souhaite poursuivre mes études en génétique et bioinformatique, poussé par ma curiosité scientifique, et souhaitant contribuer au développement de ce secteur prometteur au Maroc.</p>
+                            <p>&nbsp;&nbsp;Fort d'un bon sens du leadership et un esprit collaboratif avec les équipes multidisciplinaires.</p>
+
+                            <p>&nbsp;&nbsp;Je recherche une opportunité stimulante en programmation et développement web pour enrichir mon expérience professionnelle.</p>
                         </article>
 
                         {/* FORMATION */}
@@ -162,4 +162,4 @@ const Master2025 = () => {
     );
 };
 
-export default Master2025;
+export default Dev_Full2025;
