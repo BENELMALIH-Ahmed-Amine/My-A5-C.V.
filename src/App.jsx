@@ -19,12 +19,12 @@ function App() {
   // })
 
   return (
-    // <div className='C.V. w-full h-[150vh] flex justify-center bg-green-300'>
-    <div className='CARDS w-full h-[650px] flex justify-center'>
+    <div className='C.V. w-full h-[150vh] flex justify-center bg-green-300'>
+    {/* <div className='CARDS w-full h-[650px] flex justify-center'> */}
       <Routes>
         {/* C. V.s */}
         {/* <Route path='/' element={<Master2025 />} /> */}
-        {/* <Route path='/' element={<Dev_Full2025 />} /> */}
+        <Route path='/' element={<Dev_Full2025 />} />
 
         {/* Cards */}
         <Route path='/' element={<TechCard />} />
