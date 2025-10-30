@@ -50,17 +50,17 @@ const Master2025 = () => {
                         {/* TECHINQUES */}
                         <section className='w-full'>
                             <legend className='font-bold mb-1m.5 text-[18px]'>TECHINQUES</legend>
-                            <div className='py-2 flex flex-wrap gap-x-[7.2px]'>
+                            <div className='py-2 flex flex-wrap gap-x-[6.5px]'>
                                 {
                                     array.map((i) =>
-                                        <div key={i} className='flex gap-[6px]'>
-                                            <img className='w-[22px] h-[22px] mb-2' src={Icons[i]} alt="" />
+                                        <div key={i} className='flex gap-[4px] text-[14px]'>
+                                            <img className='w-[20px] h-[20px] mb-2' src={Icons[i]} alt="" />
                                             <span>{i}</span>
                                         </div>
                                     )
                                 }
 
-                                {/* <p>Word - Excel - Powerpoint / VSCode - HTML5 - CSS3 - Bootstrap - Sass - JavaScript - JSON - React - Tailwind CSS - MySQL - Laravel</p> */}
+                                {/* <p>Word - Excel - Powerpoint / VSCode - HTML5 - CSS3 - Bootstrap - Sass - JavaScript - JSON - React - Tailwind CSS - Git - Laravel - GitHub</p> */}
 
                             </div>
                         </section>
@@ -97,7 +97,7 @@ const Master2025 = () => {
                                 Fort d'un sens du leadership et un esprit collaboratif
                                 avec les équipes multidisciplinaires.</p>
 
-                            <p>&nbsp;&nbsp;Je souhaite poursuivre mes études en génétique et bioinformatique, poussé par ma curiosité scientifique, et souhaitant contribuer au développement de ce secteur prometteur au Maroc.</p>
+                            <p>&nbsp;&nbsp;Je souhaite poursuivre mes études en Bioressources marine, poussé par ma curiosité scientifique, et souhaitant contribuer au développement de ce secteur prometteur au Maroc.</p>
                         </article>
 
                         {/* FORMATION */}
