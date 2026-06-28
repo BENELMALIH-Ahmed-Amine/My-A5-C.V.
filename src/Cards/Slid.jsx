@@ -5,7 +5,7 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import Icons from '../Constant/Icons';
 
-const TechCard = () => {
+const Slid = () => {
     return (
         <div id='toPDF' className='w-[1170px] h-[650px] bg-[#f0ffd7] px-3 py-2.5 flex'>
             <section className='w-[27%] h-full bg-amber-300G flex flex-col justify-between'>
@@ -147,4 +147,4 @@ const TechCard = () => {
     );
 }
 
-export default TechCard;
+export default Slid;

@@ -16,6 +16,8 @@ import Git from '../assets/Icons/Git.svg'
 import Laravel from '../assets/Icons/Laravel.svg'
 import SQLite from '../assets/Icons/SQLite.svg'
 import GitHub from '../assets/Icons/GitHub.svg'
+import R from '../assets/Icons/R.png'
+import RStudio from '../assets/Icons/RStudio.png'
 
 
-export default { Word, Excel, Powerpoint, VSCode, HTML5, CSS3, Bootstrap, Sass, JavaScript, React, JSON, TailwindCSS, Git, Laravel, SQLite, GitHub }
+export default { Word, Excel, Powerpoint, VSCode, HTML5, CSS3, Bootstrap, Sass, JavaScript, React, JSON, TailwindCSS, Git, Laravel, SQLite, GitHub, R, RStudio }

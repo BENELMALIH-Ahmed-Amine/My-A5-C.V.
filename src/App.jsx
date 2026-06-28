@@ -4,6 +4,7 @@ import Dev_Full2025 from './C.V.s/Dev_Full2025'
 import Master2025 from './C.V.s/Master2025'
 import DownLoad from './DownLoad';
 import TechCard from './Cards/TechCard';
+import Slid from './Cards/Slid';
 
 function App() {
   // const downloadPDF = () => {
@@ -23,11 +24,12 @@ function App() {
     {/* <div className='CARDS w-full h-[650px] flex justify-center'> */}
       <Routes>
         {/* C. V.s */}
-        {/* <Route path='/' element={<Master2025 />} /> */}
-        <Route path='/' element={<Dev_Full2025 />} />
+        {/* <Route path='/' element={<Dev_Full2025 />} /> */}
+        <Route path='/' element={<Master2025 />} />
 
         {/* Cards */}
-        <Route path='/' element={<TechCard />} />
+        {/* <Route path='/' element={<TechCard />} /> */}
+        {/* <Route path='/' element={<Slid />} /> */}
         <Route path='/DownLoad' element={<DownLoad />} />
       </Routes>
     </div>

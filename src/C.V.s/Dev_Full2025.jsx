@@ -11,7 +11,7 @@ const Dev_Full2025 = () => {
     console.log(array);
 
     return (
-        <div className='w-[795px] h-[1125px] bg-white px-6 py-5'>
+        <div id='toPDF' className='w-[794px] h-[1123px] bg-white px-6 py-5'>
             <div className='w-full h-full divide-y-[2px] divide-dashed divide-orange-400'>
                 <section className='w-full h-[150px] pb-[2%] bg-amber-50d0 flex items-center justify-between'>
                     <div className="w-[77%] h-[90%] flex flex-col items-center">
@@ -115,7 +115,7 @@ const Dev_Full2025 = () => {
 
                             <section className='flex flex-col ml-1 mb-1'>
                                 <legend className='text-[15px] font-semibold'>Licence Fondamentale en Biologie Cellulaire <br /> et Moléculaire</legend>
-                                <p className='text-[14px] ml-2.5'>Faculté des Sciences Aïn Chock de Casablanca (2023 - 2024)</p>
+                                <p className='text-[14px] ml-2.5'>Faculté des Sciences Aïn Chock de Casablanca (2021 - 2024)</p>
                             </section>
                         </article>
 
