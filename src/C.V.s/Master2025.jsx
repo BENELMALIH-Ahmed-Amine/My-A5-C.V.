@@ -153,8 +153,7 @@ const Master2025 = () => {
                 <section className='w-full pt-[.8%] flex flex-col'>
                     <legend className='text-[20px] font-bold'>CERTIFICATIONS ET ATTESTATIONS</legend>
                     <div className='text-[16px] ml-2 space-y-[1px]'>
-                        <p>+ Attestation de participation à "the 2nd Annual Cancer Research Congress" / MCRS (2026).</p>
-                        <p>+ Attestation de participation à "the 2nd Annual Cancer Research Congress" / MCRS (2026).</p>
+                        <p>+ Attestation de participation à "the 2nd Annual Cancer Research Congress" de MCRS / ICESCO & CM6 (2026).</p>
                         <p>+ Certificat de participation à la "Sleep During Ramadan Islamic Fasting" / FSAC (2025).</p>
                         <p>+ Mise à niveau: Bases informatiques / Y-nov Casablanca (2024).</p>
                         <p>+ 2 Attestation de participation au séminaire: “Nutrition & Sport: Les clés pour gérer son stress”, <br /><span className='ml-[13px]'>et “L’épilepsie: Brisons les tabous, éclairons les esprits” / FSAC (2024).</span></p>
