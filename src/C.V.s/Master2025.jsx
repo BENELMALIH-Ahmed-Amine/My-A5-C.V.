@@ -35,7 +35,7 @@ const Master2025 = () => {
                             </div>
                             <div>
                                 <div className='flex gap-2 items-center'>
-                                    <p className='text-[17px]'><BsFillTelephoneFill /></p>
+                                    <p className='text-[16px]'><BsFillTelephoneFill /></p>
                                     <p>07 71-55 03-11</p>
                                 </div>
                                 <div className='flex gap-2 items-center'>
@@ -55,11 +55,11 @@ const Master2025 = () => {
                         {/* TECHINQUES */}
                         <section className='w-full'>
                             <legend className='font-bold mb-1m.5 text-[18px]'>TECHINQUES</legend>
-                            <div className='py-2 flex flex-wrap justify-center gap-x-[15px] -mb-2'>
+                            <div className='py-2 flex flex-wrap justify-center gap-x-[14px] -mb-2'>
                                 {
                                     selected.map((i) =>
                                         <div key={i} className='flex gap-[7px] text-[14px]'>
-                                            <img className='w-[20px] h-[20px] mb-3' src={Icons[i]} alt="" />
+                                            <img className='w-[18px] h-[18px] mb-3' src={Icons[i]} alt="" />
                                             <span>{i}</span>
                                         </div>
                                     )
@@ -99,7 +99,7 @@ const Master2025 = () => {
                     </section>
 
                     <section className='w-[60%] h-full ml-1.5 divide-y-[2px] divide-blue-300 leading-[23px]'>
-                        <article className='flex flex-col gap-1 text-[17px] pb-[15px] pr-3 leading-[25px]'>
+                        <article className='flex flex-col text-[16px] pb-[5px] pr-3 leading-[25px]'>
                             <p>&nbsp;&nbsp;Masterant en Génomique et Bioinformatique.
                                 Fort d'un sens du leadership et un esprit collaboratif avec les équipes multidisciplinaires.</p>
 
@@ -107,31 +107,39 @@ const Master2025 = () => {
                         </article>
 
                         {/* FORMATION */}
-                        <article className='pt-[10px]'>
+                        <article className='pt-[7px]'>
                             <legend className='text-[20px] font-bold mb-1.5'>FORMATION</legend>
 
                             <section className='flex flex-col ml-1 mb-1'>
-                                <legend className='text-[17px] font-semibold'>Master Génomique et Bioinformatique</legend>
-                                <p className='text-[15px] ml-2.5'>Faculté des Sciences Mohamed V Rabat (2025 - 2027)</p>
+                                <legend className='text-[16px] font-semibold'>Master Génomique et Bioinformatique</legend>
+                                <p className='text-[15px] ml-2.5'>Faculté des Sciences UM5 Rabat (2025 - 2027)</p>
                             </section>
 
                             <section className='flex flex-col ml-1 mb-1'>
-                                <legend className='text-[17px] font-semibold'>Formation en Dévelopement-Web</legend>
+                                <legend className='text-[16px] font-semibold'>Formation en Dévelopement-Web</legend>
                                 <p className='text-[15px] ml-2.5'>LionsGeek-2M (Mars 2025 - Août 2025)</p>
                             </section>
 
                             <section className='flex flex-col ml-1 mb-1'>
-                                <legend className='text-[17px] font-semibold'>Licence Fondamentale en Biologie Cellulaire <br /> et Moléculaire</legend>
+                                <legend className='text-[16px] font-semibold'>Licence en Biologie Cellulaire et Moléculaire</legend>
                                 <p className='text-[15px] ml-2.5'>Faculté des Sciences Aïn Chock de Casablanca (2021 - 2024)</p>
                             </section>
                         </article>
 
                         {/* EXPÉRIENCES PROFESSIONNELLES */}
-                        <article className='pt-[10px]'>
+                        <article className='pt-[7px]'>
                             <legend className='text-[20px] font-bold mb-1.5'>EXPÉRIENCES PROFESSIONNELLES</legend>
 
                             <section className='flex flex-col ml-1 mb-1'>
-                                <legend className='text-[17px] font-semibold'>2 Projet-Finales Front-End & Back-End</legend>
+                                <legend className='text-[16px] font-semibold'>Projet d'assemblage de novo</legend>
+                                <div className='flex flex-col'>
+                                    <p className='text-[15px] ml-2.5'>Faculté des Sciences UM5 Rabat (2026)</p>
+                                    <p className='text-[15px] ml-2.5'>- Outils Bioinformatiques: LonQC, Peorechop, Flye,...</p>
+                                </div>
+                            </section>
+
+                            <section className='flex flex-col ml-1 mb-1'>
+                                <legend className='text-[16px] font-semibold'>2 Projet-Finales Front-End & Back-End</legend>
                                 <div className='flex flex-col'>
                                     <p className='text-[15px] ml-2.5'>Y-nov Casablanca (2024) & LionsGeek-2M (2025)</p>
                                     <p className='text-[15px] ml-2.5'>- Manipulation du: LARAVEL, SQlite, Tailwind CSS.</p>
@@ -139,7 +147,7 @@ const Master2025 = () => {
                             </section>
 
                             <section className='flex flex-col ml-1 mb-1'>
-                                <legend className='text-[17px] font-semibold'>Technicien de laboratoire</legend>
+                                <legend className='text-[16px] font-semibold'>Technicien de laboratoire</legend>
                                 <div className='flex flex-col'>
                                     <p className='text-[15px] ml-2.5'>Hôpital El Hassani (02/8/23 - 30/9/23)</p>
                                     <p className='text-[15px] ml-2.5'>- Tests sanguins (VS, NFS,...).</p>
@@ -151,7 +159,7 @@ const Master2025 = () => {
 
                 {/* CERTIFICATIONS ET ATTESTATIONS */}
                 <section className='w-full pt-[.8%] flex flex-col'>
-                    <legend className='text-[20px] font-bold'>CERTIFICATIONS ET ATTESTATIONS</legend>
+                    <legend className='text-[18px] font-bold'>CERTIFICATIONS ET ATTESTATIONS</legend>
                     <div className='text-[16px] ml-2 space-y-[1px]'>
                         <p>+ Attestation de participation à "the 2nd Annual Cancer Research Congress" de MCRS / ICESCO & CM6 (2026).</p>
                         <p>+ Certificat de participation à la "Sleep During Ramadan Islamic Fasting" / FSAC (2025).</p>
